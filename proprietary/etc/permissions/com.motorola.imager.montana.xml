@@ -1,0 +1,4 @@
+<permissions>
+   <library name="com.motorola.imager.montana"
+       file="/system/framework/com.motorola.imager.montana" />
+</permissions>
