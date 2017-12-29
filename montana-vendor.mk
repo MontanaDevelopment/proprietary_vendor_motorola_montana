@@ -311,37 +311,29 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/motorola/12m/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt \
     vendor/motorola/montana/proprietary/etc/motorola/12m/tcmd_leds.cfg:system/etc/motorola/12m/tcmd_leds.cfg \
     vendor/motorola/montana/proprietary/etc/motorola/mdmctbk/ctbk_val.cfg:system/etc/motorola/mdmctbk/ctbk_val.cfg \
-    vendor/motorola/montana/proprietary/etc/motorola/perms/com.android.cellbroadcastreceiver.perms.xml:system/etc/motorola/perms/com.android.cellbroadcastreceiver.perms.xml \
-    vendor/motorola/montana/proprietary/etc/motorola/perms/com.motorola.android.provisioning.defperms.xml:system/etc/motorola/perms/com.motorola.android.provisioning.defperms.xml \
-    vendor/motorola/montana/proprietary/etc/motorola/perms/com.motorola.contacts.preloadcontacts.defperms.xml:system/etc/motorola/perms/com.motorola.contacts.preloadcontacts.defperms.xml \
-    vendor/motorola/montana/proprietary/etc/motorola/perms/com.motorola.fmplayer.defperms.xml:system/etc/motorola/perms/com.motorola.fmplayer.defperms.xml \
-    vendor/motorola/montana/proprietary/etc/motorola/perms/com.motorola.msimsettings.defperms.xml:system/etc/motorola/perms/com.motorola.msimsettings.defperms.xml \
     vendor/motorola/montana/proprietary/etc/motorola/sysconfig/dtv-hidepackages.xml:system/etc/motorola/sysconfig/dtv-hidepackages.xml \
     vendor/motorola/montana/proprietary/etc/motorola/tcmd/cid_template.dat:system/etc/motorola/tcmd/cid_template.dat \
     vendor/motorola/montana/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
     vendor/motorola/montana/proprietary/etc/permissions/android.hardware.opengles.aep.xml:system/etc/permissions/android.hardware.opengles.aep.xml \
     vendor/motorola/montana/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/com.android.nfc_extras.xml:system/etc/permissions/com.android.nfc_extras.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.motorola.android.tcmd.xml:system/etc/permissions/com.motorola.android.tcmd.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.motorola.camerabgproc_library.xml:system/etc/permissions/com.motorola.camerabgproc_library.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/com.motorola.hardware.dtv.xml:system/etc/permissions/com.motorola.hardware.dtv.xml \
+    vendor/motorola/montana/proprietary/etc/permissions/com.motorola.frameworks.core.addon.xml:system/etc/permissions/com.motorola.frameworks.core.addon.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.motorola.imager.access.xml:system/etc/permissions/com.motorola.imager.access.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.motorola.imager.montana.xml:system/etc/permissions/com.motorola.imager.montana.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml \
+    vendor/motorola/montana/proprietary/etc/permissions/com.motorola.permission.diag.xml:system/etc/permissions/com.motorola.permission.diag.xml \
+    vendor/motorola/montana/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/motorola/montana/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/motorola/montana/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
     vendor/motorola/montana/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/motorola/montana/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/mot_dtv_permissions.xml:system/etc/permissions/mot_dtv_permissions.xml \
     vendor/motorola/montana/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/product_feature.xml:system/etc/permissions/product_feature.xml \
     vendor/motorola/montana/proprietary/etc/permissions/protobufs-2.3.0.xml:system/etc/permissions/protobufs-2.3.0.xml \
     vendor/motorola/montana/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/montana/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
@@ -349,10 +341,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/permissions/rcs_service_aidl.xml:system/etc/permissions/rcs_service_aidl.xml \
     vendor/motorola/montana/proprietary/etc/permissions/rcs_service_api.xml:system/etc/permissions/rcs_service_api.xml \
     vendor/motorola/montana/proprietary/etc/permissions/rcscommon.xml:system/etc/permissions/rcscommon.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/unavail.android.hardware.nfc.hce.xml:system/etc/permissions/unavail.android.hardware.nfc.hce.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/unavail.android.hardware.nfc.xml:system/etc/permissions/unavail.android.hardware.nfc.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/unavail.android.hardware.sensor.compass.xml:system/etc/permissions/unavail.android.hardware.sensor.compass.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/unavail.com.motorola.hardware.dtv.xml:system/etc/permissions/unavail.com.motorola.hardware.dtv.xml \
     vendor/motorola/montana/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
     vendor/motorola/montana/proprietary/etc/qewl.jar:system/etc/qewl.jar \
     vendor/motorola/montana/proprietary/etc/recovery-resource.dat:system/etc/recovery-resource.dat \
