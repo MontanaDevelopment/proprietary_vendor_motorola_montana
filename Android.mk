@@ -19,16 +19,6 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),montana)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libril
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/lib/libril.so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/vendor/lib/libtime_genoff.so
@@ -193,18 +183,6 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := UiccTerminal
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/priv-app/UiccTerminal/UiccTerminal.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := atfwd
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/priv-app/atfwd/atfwd.apk
@@ -307,6 +285,16 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := com.gsma.services.nfc
+LOCAL_MODULE_OWNER := motorola
+LOCAL_SRC_FILES := proprietary/framework/com.gsma.services.nfc.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := com.qti.dpmframework
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/framework/com.qti.dpmframework.jar
@@ -400,16 +388,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := org.simalliance.openmobileapi
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/framework/org.simalliance.openmobileapi.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := prcui-config
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/framework/prcui-config.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
