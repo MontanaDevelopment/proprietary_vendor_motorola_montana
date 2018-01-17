@@ -322,6 +322,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/permissions/com.motorola.frameworks.core.addon.xml:system/etc/permissions/com.motorola.frameworks.core.addon.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.motorola.imager.access.xml:system/etc/permissions/com.motorola.imager.access.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.motorola.imager.montana.xml:system/etc/permissions/com.motorola.imager.montana.xml \
+    vendor/motorola/montana/proprietary/etc/permissions/com.motorola.moto.xml:system/etc/permissions/com.motorola.moto.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.motorola.permission.diag.xml:system/etc/permissions/com.motorola.permission.diag.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/motorola/montana/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
@@ -345,6 +346,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/qewl.jar:system/etc/qewl.jar \
     vendor/motorola/montana/proprietary/etc/recovery-resource.dat:system/etc/recovery-resource.dat \
     vendor/motorola/montana/proprietary/framework/com.motorola.android.dropboxhelper.jar:system/framework/com.motorola.android.dropboxhelper.jar \
+    vendor/motorola/montana/proprietary/framework/com.motorola.android.settings.shared.jar:system/framework/com.motorola.android.settings.shared.jar \
     vendor/motorola/montana/proprietary/framework/com.motorola.camerabgproc.jar:system/framework/com.motorola.camerabgproc.jar \
     vendor/motorola/montana/proprietary/framework/com.motorola.imager.montana.jar:system/framework/com.motorola.imager.montana.jar \
     vendor/motorola/montana/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -1220,12 +1222,12 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    NfcSetup \
     TimeService \
     datastatusnotification \
     AppDirectedSmsProxy \
     CNEService \
     CarrierServices \
+    CarrierSettingsExt \
     DMService \
     FingerprintServiceExtension \
     OMAProvisioning \
@@ -1233,6 +1235,7 @@ PRODUCT_PACKAGES += \
     QtiTetherService \
     SEPolicyUpdate \
     SlpcSystem \
+    UiccTerminal \
     atfwd \
     com.qualcomm.location \
     qcrilmsgtunnel \

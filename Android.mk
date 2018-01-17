@@ -30,17 +30,6 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := NfcSetup
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/app/NfcSetup/NfcSetup.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/app/TimeService/TimeService.apk
@@ -90,6 +79,18 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := CarrierServices
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/priv-app/CarrierServices/CarrierServices.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := CarrierSettingsExt
+LOCAL_MODULE_OWNER := motorola
+LOCAL_SRC_FILES := proprietary/priv-app/CarrierSettingsExt/CarrierSettingsExt.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -174,6 +175,18 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := SlpcSystem
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/priv-app/SlpcSystem/SlpcSystem.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := UiccTerminal
+LOCAL_MODULE_OWNER := motorola
+LOCAL_SRC_FILES := proprietary/priv-app/UiccTerminal/UiccTerminal.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
