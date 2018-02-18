@@ -342,7 +342,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/motorola/montana/proprietary/etc/permissions/rcs_service_aidl.xml:system/etc/permissions/rcs_service_aidl.xml \
     vendor/motorola/montana/proprietary/etc/permissions/rcs_service_api.xml:system/etc/permissions/rcs_service_api.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/rcscommon.xml:system/etc/permissions/rcscommon.xml \
     vendor/motorola/montana/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
     vendor/motorola/montana/proprietary/etc/qewl.jar:system/etc/qewl.jar \
     vendor/motorola/montana/proprietary/etc/recovery-resource.dat:system/etc/recovery-resource.dat \
@@ -1263,7 +1262,6 @@ PRODUCT_PACKAGES += \
     qti-telephony-common \
     rcs_service_aidl \
     rcs_service_api \
-    rcscommon \
     rcsimssettings \
     rcsservice \
     tcmclient
