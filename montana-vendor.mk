@@ -746,7 +746,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/bin/akmd09912:system/vendor/bin/akmd09912 \
     vendor/motorola/montana/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/motorola/montana/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
-    vendor/motorola/montana/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/motorola/montana/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/motorola/montana/proprietary/vendor/bin/esepmdaemon:system/vendor/bin/esepmdaemon \
     vendor/motorola/montana/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
