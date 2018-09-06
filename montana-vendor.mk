@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/montana/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/montana/proprietary/bin/cnss_diag:system/bin/cnss_diag \
-    vendor/motorola/montana/proprietary/bin/cplay:system/bin/cplay \
     vendor/motorola/montana/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/montana/proprietary/bin/diag_callback_sample:system/bin/diag_callback_sample \
     vendor/motorola/montana/proprietary/bin/diag_dci_sample:system/bin/diag_dci_sample \
@@ -55,12 +54,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/bin/emmc_ffu.sh:system/bin/emmc_ffu.sh \
     vendor/motorola/montana/proprietary/bin/emmc_ffu_15.sh:system/bin/emmc_ffu_15.sh \
     vendor/motorola/montana/proprietary/bin/esdpll:system/bin/esdpll \
-    vendor/motorola/montana/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/motorola/montana/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/motorola/montana/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/motorola/montana/proprietary/bin/fmfactorytest:system/bin/fmfactorytest \
     vendor/motorola/montana/proprietary/bin/fmfactorytestserver:system/bin/fmfactorytestserver \
-    vendor/motorola/montana/proprietary/bin/fmhal_service:system/bin/fmhal_service \
     vendor/motorola/montana/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/montana/proprietary/bin/ftmipcd:system/bin/ftmipcd \
     vendor/motorola/montana/proprietary/bin/garden_app:system/bin/garden_app \
@@ -68,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
     vendor/motorola/montana/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
     vendor/motorola/montana/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/motorola/montana/proprietary/bin/hs20-osu-client:system/bin/hs20-osu-client \
     vendor/motorola/montana/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/motorola/montana/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/motorola/montana/proprietary/bin/imscmservice:system/bin/imscmservice \
@@ -84,7 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/motorola/montana/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/motorola/montana/proprietary/bin/mbm_spy:system/bin/mbm_spy \
-    vendor/motorola/montana/proprietary/bin/mdnsd:system/bin/mdnsd \
     vendor/motorola/montana/proprietary/bin/memtest_mode:system/bin/memtest_mode \
     vendor/motorola/montana/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/motorola/montana/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -112,7 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/motorola/montana/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/montana/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/montana/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     vendor/motorola/montana/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/montana/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/montana/proprietary/bin/setup_fs:system/bin/setup_fs \
@@ -126,10 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/motorola/montana/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/montana/proprietary/bin/timedexec:system/bin/timedexec \
-    vendor/motorola/montana/proprietary/bin/tinycap:system/bin/tinycap \
-    vendor/motorola/montana/proprietary/bin/tinymix:system/bin/tinymix \
-    vendor/motorola/montana/proprietary/bin/tinypcminfo:system/bin/tinypcminfo \
-    vendor/motorola/montana/proprietary/bin/tinyplay:system/bin/tinyplay \
     vendor/motorola/montana/proprietary/bin/vendor_cmd_tool:system/bin/vendor_cmd_tool \
     vendor/motorola/montana/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/motorola/montana/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
@@ -348,23 +338,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/framework/com.motorola.camerabgproc.jar:system/framework/com.motorola.camerabgproc.jar \
     vendor/motorola/montana/proprietary/framework/com.motorola.imager.montana.jar:system/framework/com.motorola.imager.montana.jar \
     vendor/motorola/montana/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/motorola/montana/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/motorola/montana/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/motorola/montana/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/motorola/montana/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/motorola/montana/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/motorola/montana/proprietary/lib/hw/displaypanel.default.so:system/lib/hw/displaypanel.default.so \
     vendor/motorola/montana/proprietary/lib/hw/fingerprint.msm8937.so:system/lib/hw/fingerprint.msm8937.so \
     vendor/motorola/montana/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/motorola/montana/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
-    vendor/motorola/montana/proprietary/lib/hw/nfc_nci.pn54x.default.so:system/lib/hw/nfc_nci.pn54x.default.so \
     vendor/motorola/montana/proprietary/lib/hw/sensors.montana.so:system/lib/hw/sensors.montana.so \
     vendor/motorola/montana/proprietary/lib/hw/sensors.rp.so:system/lib/hw/sensors.rp.so \
-    vendor/motorola/montana/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/motorola/montana/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/motorola/montana/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
-    vendor/motorola/montana/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
-    vendor/motorola/montana/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/motorola/montana/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/motorola/montana/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/montana/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
@@ -373,12 +356,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/montana/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/motorola/montana/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
-    vendor/motorola/montana/proprietary/lib/libbson.so:system/lib/libbson.so \
-    vendor/motorola/montana/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
-    vendor/motorola/montana/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/motorola/montana/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     vendor/motorola/montana/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
-    vendor/motorola/montana/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/motorola/montana/proprietary/lib/libcce-socketjni.so:system/lib/libcce-socketjni.so \
     vendor/motorola/montana/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/motorola/montana/proprietary/lib/libdesense.so:system/lib/libdesense.so \
@@ -408,14 +386,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/libebtable_filter.so:system/lib/libebtable_filter.so \
     vendor/motorola/montana/proprietary/lib/libebtable_nat.so:system/lib/libebtable_nat.so \
     vendor/motorola/montana/proprietary/lib/libebtc.so:system/lib/libebtc.so \
-    vendor/motorola/montana/proprietary/lib/libf2fs_sparseblock.so:system/lib/libf2fs_sparseblock.so \
     vendor/motorola/montana/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/motorola/montana/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
-    vendor/motorola/montana/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
     vendor/motorola/montana/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
     vendor/motorola/montana/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/motorola/montana/proprietary/lib/libjni_pacprocessor.so:system/lib/libjni_pacprocessor.so \
-    vendor/motorola/montana/proprietary/lib/libjnigraphics.so:system/lib/libjnigraphics.so \
     vendor/motorola/montana/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/montana/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
     vendor/motorola/montana/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -426,10 +400,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
     vendor/motorola/montana/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/montana/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
-    vendor/motorola/montana/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
-    vendor/motorola/montana/proprietary/lib/libmemtrack.so:system/lib/libmemtrack.so \
-    vendor/motorola/montana/proprietary/lib/libmemunreachable.so:system/lib/libmemunreachable.so \
-    vendor/motorola/montana/proprietary/lib/libminui.so:system/lib/libminui.so \
     vendor/motorola/montana/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/montana/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/motorola/montana/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -444,18 +414,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/motorola/montana/proprietary/lib/libpkip.so:system/lib/libpkip.so \
     vendor/motorola/montana/proprietary/lib/libprovlib.so:system/lib/libprovlib.so \
-    vendor/motorola/montana/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
-    vendor/motorola/montana/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
-    vendor/motorola/montana/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
     vendor/motorola/montana/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/montana/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/motorola/montana/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     vendor/motorola/montana/proprietary/lib/libtpa.so:system/lib/libtpa.so \
     vendor/motorola/montana/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/motorola/montana/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/motorola/montana/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
-    vendor/motorola/montana/proprietary/lib/libwifi-hal-qcom.so:system/lib/libwifi-hal-qcom.so \
-    vendor/motorola/montana/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/motorola/montana/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
     vendor/motorola/montana/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
     vendor/motorola/montana/proprietary/lib/modules/backlight.ko:system/lib/modules/backlight.ko \
@@ -604,7 +568,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libbase64.so:system/vendor/lib/libbase64.so \
     vendor/motorola/montana/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/motorola/montana/proprietary/vendor/lib/libbt-logClient.so:system/vendor/lib/libbt-logClient.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/motorola/montana/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/motorola/montana/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/motorola/montana/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
@@ -1177,7 +1140,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/motorola/montana/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/motorola/montana/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/motorola/montana/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/montana/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/montana/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
     vendor/motorola/montana/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
@@ -1220,6 +1182,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
+    NfcSetup \
     TimeService \
     datastatusnotification \
     AppDirectedSmsProxy \
