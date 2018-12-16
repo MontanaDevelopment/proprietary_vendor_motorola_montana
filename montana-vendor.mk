@@ -636,7 +636,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/montana/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/montana/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
-    vendor/motorola/montana/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
+    vendor/motorola/montana/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
+    vendor/motorola/montana/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/motorola/montana/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/motorola/montana/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/motorola/montana/proprietary/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
@@ -703,7 +704,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/motorola/montana/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/vendor/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/motorola/montana/proprietary/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
-    vendor/motorola/montana/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/montana/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/motorola/montana/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/montana/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
@@ -1324,6 +1324,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:system/vendor/lib64/mediadrm/libwvdrmengine.so \
     vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0_vendor.so:system/vendor/lib64/vendor.qti.esepowermanager@1.0_vendor.so \
     vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:system/vendor/lib64/vendor.qti.gnss@1.0.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.gnss@1.1.so:system/vendor/lib64/vendor.qti.gnss@1.1.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.gnss@1.2.so:system/vendor/lib64/vendor.qti.gnss@1.2.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.gnss@2.0.so:system/vendor/lib64/vendor.qti.gnss@2.0.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.gnss@2.1.so:system/vendor/lib64/vendor.qti.gnss@2.1.so \
     vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so \
     vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0.so \
