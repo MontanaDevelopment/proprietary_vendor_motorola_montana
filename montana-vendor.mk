@@ -73,6 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/motorola/montana/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/motorola/montana/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
+    vendor/motorola/montana/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/montana/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/motorola/montana/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/motorola/montana/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
