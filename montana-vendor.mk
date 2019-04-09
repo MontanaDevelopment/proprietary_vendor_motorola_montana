@@ -1320,6 +1320,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/motorola/montana/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/motorola/montana/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/libdiag_system.so:system/vendor/lib64/libdiag_system.so \
     vendor/motorola/montana/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/motorola/montana/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/motorola/montana/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
