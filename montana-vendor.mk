@@ -65,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_5_1.fw:system/etc/firmware/cpp_firmware_v1_5_1.fw \
     vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
     vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/montana/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
@@ -81,6 +82,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
     vendor/motorola/montana/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
     vendor/motorola/montana/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
+    vendor/motorola/montana/proprietary/etc/firmware/opalum.rx.ext.config.0:system/etc/firmware/opalum.rx.ext.config.0 \
+    vendor/motorola/montana/proprietary/etc/firmware/opalum.rx.ext.config.1:system/etc/firmware/opalum.rx.ext.config.1 \
+    vendor/motorola/montana/proprietary/etc/firmware/opalum.rx.ext.config.2:system/etc/firmware/opalum.rx.ext.config.2 \
+    vendor/motorola/montana/proprietary/etc/firmware/opalum.rx.ext.config.3:system/etc/firmware/opalum.rx.ext.config.3 \
+    vendor/motorola/montana/proprietary/etc/firmware/opalum.tx.ext.config.0:system/etc/firmware/opalum.tx.ext.config.0 \
+    vendor/motorola/montana/proprietary/etc/firmware/opalum.tx.ext.config.1:system/etc/firmware/opalum.tx.ext.config.1 \
+    vendor/motorola/montana/proprietary/etc/firmware/opalum.tx.ext.config.2:system/etc/firmware/opalum.tx.ext.config.2 \
+    vendor/motorola/montana/proprietary/etc/firmware/opalum.tx.ext.config.3:system/etc/firmware/opalum.tx.ext.config.3 \
     vendor/motorola/montana/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
     vendor/motorola/montana/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
     vendor/motorola/montana/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
@@ -1400,8 +1409,8 @@ PRODUCT_PACKAGES += \
     izat.xt.srv \
     qcrilhook \
     qti-telephony-common \
-    qti-vzw-ims-internal \
     rcsimssettings \
     tcmclient \
+    qti-vzw-ims-internal \
     vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.hardware.sensorscalibrate-V1.0-java
