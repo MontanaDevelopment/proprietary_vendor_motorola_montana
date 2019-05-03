@@ -1403,6 +1403,5 @@ PRODUCT_PACKAGES += \
     qti-vzw-ims-internal \
     rcsimssettings \
     tcmclient \
-    qti-vzw-ims-internal \
     vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.hardware.sensorscalibrate-V1.0-java
